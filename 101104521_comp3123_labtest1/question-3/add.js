@@ -6,12 +6,16 @@ const path = require('path');
 
 const logDir = path.join(__dirname, 'logs');
 
-
-if(!fs.existsSync(logDir)) {
-  fs.mkdirSync(logDir);
-}
-else {
+try {
+  if(!fs.existsSync(logDir)) {
+    fs.mkdirSync(logDir);
+  } else {
   throw new Error('Same directory already exists');
+}
+
+} catch (err)
+{
+  console.error('Error: ', err);
 }
 
 let i = 0;
