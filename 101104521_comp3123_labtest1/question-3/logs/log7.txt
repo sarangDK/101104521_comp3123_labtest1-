@@ -1,0 +1,1 @@
+this is the text of log7.txt

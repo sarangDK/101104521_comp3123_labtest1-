@@ -1,3 +1,4 @@
+// lab test 1 - question 1
 function lowerCaseWords(array) {
   return new Promise((resolve, reject) => { 
     if (!Array.isArray(array)) {

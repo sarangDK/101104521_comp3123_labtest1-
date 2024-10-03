@@ -1,3 +1,5 @@
+// lab test 1 - question 2
+
 // resolvedPromise function
 function resolvedPromise() {
   return new Promise((resolve) => {

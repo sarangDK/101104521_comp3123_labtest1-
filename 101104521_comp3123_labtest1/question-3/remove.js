@@ -1,3 +1,6 @@
+// lab test 1 - question 3 - remove.js
+
+
 const fs = require('fs');
 const path = require('path');
 
